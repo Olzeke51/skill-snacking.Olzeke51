@@ -8,16 +8,15 @@ Suggests a snack to eat, based on a short default list, but you can manage your 
 
 ## Examples
 
-- "What should I make for dinner?"
-- "What should I eat?"
+- "Make a snack?"
+- "What can I eat?"
 - "What should I eat tonight?"
 - "I'm hungry"
-- "What's for dinner?"
 - "list my snacks"
 
 ## Credits
 
-Mike Gray <mike@graywind.org>
+Mike Gray <mike@graywind.org>;originator-(meal-plan), 
 Gary Olzeke51 <garyz.dev1@proton.me>
    cloned and modified
 
