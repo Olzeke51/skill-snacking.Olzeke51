@@ -1,15 +1,16 @@
 {
     "title": "Snacks",
-    "url": "https://github.com/Olzeke51/skill-snacks",
-    "summary": "Suggests/manage snacks for you to eat",
-    "short_description": "Suggests/manage snacks for you to eat",
-    "description": "Suggests a snack to eat, based on a short default list, but you can manage your own snacks! on NeonAI device",
+    "url": "https://github.com/Olzeke51/skill-snacking.Olzeke51",
+    "summary": "Suggests a snack for you to eat",
+    "short_description": "Suggests a snack for you to eat",
+    "description": "Suggests a snack to eat, based on a short default list, but you can manage your own snacks!",
     "examples": [
         "What should I make for dinner?",
         "What should I eat?",
         "What should I eat tonight?",
         "I'm hungry",
-        "What's for dinner?"
+        "What's for dinner?",
+        "list my snacks"
     ],
     "desktopFile": false,
     "warning": "",
@@ -31,7 +32,7 @@
         "arm"
     ],
     "branch": "master",
-    "license": "Apache v2.0",
+    "license": "Unknown",
     "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/utensils.svg",
     "category": "Daily",
     "categories": [
@@ -43,16 +44,14 @@
         "Food",
         "Meal",
         "Planning",
-        "Meal planning",
-        "Snack"
+        "Meal planning"
     ],
     "credits": [
-        "Mike",
-        "Gray",
-        "<mike@graywind.org>"
-        "<garyz.dev1@proton.me>"
+        "Mike Gray <mike@graywind.org>",
+        "Gary Olzeke51 <garyz.dev1@proton.me>",
+        "   cloned and modified"
     ],
-    "skillname": "skill-snacks",
-    "authorname": "Gary Olzeke51",
+    "skillname": "skill-snacking.Olzeke51",
+    "authorname": "Olzeke51",
     "foldername": null
 }
