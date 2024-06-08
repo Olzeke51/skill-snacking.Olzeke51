@@ -5,11 +5,10 @@
     "short_description": "Suggests a snack for you to eat",
     "description": "Suggests a snack to eat, based on a short default list, but you can manage your own snacks!",
     "examples": [
-        "What should I make for dinner?",
-        "What should I eat?",
+        "Make a snack?",
+        "What can I eat?",
         "What should I eat tonight?",
         "I'm hungry",
-        "What's for dinner?",
         "list my snacks"
     ],
     "desktopFile": false,
@@ -47,7 +46,7 @@
         "Meal planning"
     ],
     "credits": [
-        "Mike Gray <mike@graywind.org>",
+        "Mike Gray <mike@graywind.org>;originator-(meal-plan), ",
         "Gary Olzeke51 <garyz.dev1@proton.me>",
         "   cloned and modified"
     ],
