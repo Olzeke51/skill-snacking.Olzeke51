@@ -1,0 +1,9 @@
+skillMetadata:
+  sections:
+    - name: Snacks Settings
+      fields:
+        - name: snacks
+          type: text
+          label: Snacks
+          value: "apples, Scoops, cheese, Peanut butter and jelly sandwiches"
+          placeholder: Comma-separated list of meals
