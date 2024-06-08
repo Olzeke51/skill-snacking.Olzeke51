@@ -1,11 +1,11 @@
 {
   "type": "@mikejgray/ovos-skill-projen.OVOSSkillProject",
-  "name": "snacks-skill",
+  "name": "snacking-skill",
   "retrofit": true,
   "author": "Mike Gray & Gary Olzeke51",
   "authorAddress": "garyz.dev1@proton.me",
   "authorHandle": "Olzeke51",
-  "repositoryUrl": "https://github.com/Olzeke51/skill-snacks",
+  "repositoryUrl": "https://github.com/Olzeke51/skill-snacking.Olzeke51",
   "packageDir": ".",
   "skillClass": "SnacksSkill",
   "license": "Apache-2.0"
