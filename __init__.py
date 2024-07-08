@@ -1,4 +1,4 @@
-# pylint: disable=missing-module-docstring,attribute-defined-outside-init,broad-exception-caught,invalid-name
+p# pylint: disable=missing-module-docstring,attribute-defined-outside-init,broad-exception-caught,invalid-name
 from random import choice
 
 from ovos_bus_client.message import Message
@@ -7,9 +7,8 @@ from ovos_workshop.decorators import intent_handler
 from ovos_workshop.skills import OVOSSkill
 
 INITIAL_SNACKS = (
-    "apples, Scoops, cheese,"
-    "Peanut butter and jelly sandwiches"
-)
+    "apples, Scoops, cheese, raisins, cookies, empty"
+    )
 
 
 class SnacksSkill(OVOSSkill):
