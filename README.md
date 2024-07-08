@@ -5,6 +5,7 @@ Suggests a snack for you to eat
 ## About
 
 Suggests a snack to eat, based on a short default list, but you can manage your own snacks!
+Snacks alpha1 is merely changing 'meal' to "snack" as appropriate
 
 ## Examples
 
