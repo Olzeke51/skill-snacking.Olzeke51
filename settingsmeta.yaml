@@ -5,5 +5,5 @@ skillMetadata:
         - name: snacks
           type: text
           label: Snacks
-          value: "apples, Scoops, cheese, Peanut butter and jelly sandwiches"
+          value: "apples, Scoops, cheese, raisins, cookies, empty"
           placeholder: Comma-separated list of meals
