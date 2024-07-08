@@ -3,7 +3,7 @@
     "url": "https://github.com/Olzeke51/skill-snacking.Olzeke51",
     "summary": "Suggests a snack for you to eat",
     "short_description": "Suggests a snack for you to eat",
-    "description": "Suggests a snack to eat, based on a short default list, but you can manage your own snacks!",
+    "description": "Suggests a snack to eat, based on a short default list, but you can manage your own snacks! Snacks alpha1 is merely changing 'meal' to \"snack\" as appropriate",
     "examples": [
         "Make a snack?",
         "What can I eat?",
