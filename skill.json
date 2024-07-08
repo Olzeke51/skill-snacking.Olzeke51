@@ -9,7 +9,8 @@
         "What can I eat?",
         "What should I eat tonight?",
         "I'm hungry",
-        "list my snacks"
+        "list my snacks",
+        "add a snack"
     ],
     "desktopFile": false,
     "warning": "",
