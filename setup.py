@@ -4,6 +4,7 @@ from os import walk, path
 
 BASEDIR = path.abspath(path.dirname(__file__))
 URL = "https://github.com/Olzeke51/skill-snacks"
+""" grz do I need to update?"""
 SKILL_CLAZZ = "SnacksSkill"  # needs to match __init__.py class name
 PYPI_NAME = "snacks-skill"  # pip install PYPI_NAME
 
@@ -17,6 +18,7 @@ BASE_PATH = BASE_PATH = path.abspath(path.join(path.dirname(__file__), "."))
 
 def get_version():
     """Find the version of the package"""
+    """ grz do I need to update?"""
     version = None
     version_file = path.join(BASE_PATH, "version.py")
     major, minor, build, alpha = (None, None, None, None)
