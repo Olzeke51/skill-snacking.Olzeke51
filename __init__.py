@@ -1,4 +1,4 @@
-p# pylint: disable=missing-module-docstring,attribute-defined-outside-init,broad-exception-caught,invalid-name
+''' p# pylint: disable=missing-module-docstring,attribute-defined-outside-init,broad-exception-caught,invalid-name'''
 from random import choice
 
 from ovos_bus_client.message import Message
