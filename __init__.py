@@ -88,7 +88,7 @@ class SnacksSkill(OVOSSkill):
     def handle_list_snacks(self, _: Message):
         """List all the snacks we have. If there are more than 15, ask for confirmation."""
         yummie = "Yummmies"
-        self.gui.show_text(self, "Things to snack on", {yummie}, override_idle=None, override_animations=False)
+        self.gui.show_text(self, "Things to snack on", {yummie}, None, False)
         num_snacks = len(self.snacks)
         if num_snacks > 15:
             confirm = self.ask_yesno("confirm.list.snacks", {"num_snacks": num_snacks})
