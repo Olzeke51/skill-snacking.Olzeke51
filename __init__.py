@@ -9,7 +9,7 @@ from ovos_workshop.skills import OVOSSkill
 INITIAL_SNACKS = (
     "apples, Scoops, cheese, raisins, cookies, empty"
     )
-
+self.gui.show_text(self,"Things to snack on",title="yummie",override_idle=None,override_animations=False)
 
 class SnacksSkill(OVOSSkill):
     """A skill to manage snacks."""
