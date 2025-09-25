@@ -9,7 +9,7 @@ from ovos_workshop.skills import OVOSSkill
 INITIAL_SNACKS = (
     "apples, Scoops, cheese, raisins, cookies, empty"
     )
-self.gui.show_text(self,"Things to snack on",title="yummie",override_idle=None,override_animations=False)
+
 
 class SnacksSkill(OVOSSkill):
     """A skill to manage snacks."""
@@ -87,6 +87,7 @@ class SnacksSkill(OVOSSkill):
     @intent_handler("list.snack.intent")
     def handle_list_snacks(self, _: Message):
         """List all the snacks we have. If there are more than 15, ask for confirmation."""
+        self.gui.show_text(self,"Things to snack on",title="yummie",override_idle=None,override_animations=False)
         num_snacks = len(self.snacks)
         if num_snacks > 15:
             confirm = self.ask_yesno("confirm.list.snacks", {"num_snacks": num_snacks})
