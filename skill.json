@@ -1,8 +1,7 @@
 {
-    "title": "Snacks",
-    "url": "https://github.com/Olzeke51/skill-snacking.Olzeke51",
+    "title": "snacks-skill",
+    "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/utensils.svg",
     "summary": "Suggests a snack for you to eat",
-    "short_description": "Suggests a snack for you to eat",
     "description": "Suggests a snack to eat, based on a short default list, but you can manage your own snacks! Snacks alpha1 is merely changing 'meal' to \"snack\" as appropriate",
     "examples": [
         "Make a snack?",
@@ -11,9 +10,25 @@
         "I'm hungry",
         "list my snacks"
     ],
-    "desktopFile": false,
-    "warning": "",
-    "systemDeps": false,
+    "credits": [
+        "Gary Olzeke51"
+    ],
+    "categories": [
+        "Daily",
+        "Productivity"
+    ],
+    "tags": "ovos skill voice assistant",
+    "category": "Daily",
+    "package_name": "snacks-skill",
+    "pip_spec": "snacks-skill",
+    "license": "Apache-2.0",
+    "author": "Gary Olzeke51",
+    "version": "0.0.1a2",
+    "url": "https://github.com/Olzeke51/skill-snacks",
+    "skill_id": "skill-snacks.olzeke51=skill_snacks:SnacksSkill",
+    "skillname": "skill-snacks",
+    "authorname": "Olzeke51",
+    "name": "snacks-skill",
     "requirements": {
         "python": [
             "ovos-utils~=0.0, >=0.0.30",
@@ -22,6 +37,9 @@
         "system": {},
         "skill": []
     },
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
     "incompatible_skills": [],
     "platforms": [
         "i386",
@@ -31,26 +49,6 @@
         "arm"
     ],
     "branch": "master",
-    "license": "Unknown",
-    "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/utensils.svg",
-    "category": "Daily",
-    "categories": [
-        "Daily",
-        "Productivity"
-    ],
-    "tags": [
-        "Food meal planning",
-        "Food",
-        "Meal",
-        "Planning",
-        "Meal planning"
-    ],
-    "credits": [
-        "Mike Gray <mike@graywind.org>;originator-(meal-plan), ",
-        "Gary Olzeke51 <garyz.dev1@proton.me>",
-        "   cloned and modified"
-    ],
-    "skillname": "skill-snacking.Olzeke51",
-    "authorname": "Olzeke51",
-    "foldername": null
+    "foldername": null,
+    "short_description": "Suggests a snack for you to eat"
 }
