@@ -6,9 +6,9 @@ from ovos_utils.parse import match_one
 from ovos_workshop.decorators import intent_handler
 from ovos_workshop.skills import OVOSSkill
 
-INITIAL_SNACKS = (
+INITIAL_SNACKS = [
     "apples", "Scoops", "cheese", "raisins", "cookies", "empty"
-    )
+]
 
 
 class SnacksSkill(OVOSSkill):
