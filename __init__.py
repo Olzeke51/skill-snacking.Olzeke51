@@ -36,7 +36,7 @@ class SnacksSkill(OVOSSkill):
     def snacks(self):
         """Get the list of snacks from the settings file. Comma-separated string."""
         snacks = self.settings.get("snacks", INITIAL_SNACKS)
-        snackss= snacks.replace(", ", ",").replace(" ,", ",")
+        """snackss= snacks.replace(", ", ",").replace(" ,", ",")"""
         return snacks
 
     @snacks.setter
