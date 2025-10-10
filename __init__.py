@@ -7,7 +7,7 @@ from ovos_workshop.decorators import intent_handler
 from ovos_workshop.skills import OVOSSkill
 
 INITIAL_SNACKS = (
-    apples, Scoops, cheese, raisins, cookies, empty
+    "apples", "Scoops", "cheese", "raisins", "cookies", "empty"
     )
 
 
