@@ -1,4 +1,5 @@
 ''' p# pylint: disable=missing-module-docstring,attribute-defined-outside-init,broad-exception-caught,invalid-name'''
+''' so is it looking for a long string with comma seperators? & no whitespace???'''
 from random import choice
 
 from ovos_bus_client.message import Message
@@ -36,7 +37,8 @@ class SnacksSkill(OVOSSkill):
     def snacks(self):
         """Get the list of snacks from the settings file. Comma-separated string."""
         snacks = self.settings.get("snacks", INITIAL_SNACKS)
-        """snackss= snacks.replace(", ", ",").replace(" ,", ",")"""
+        """snackss= snacks.replace(", ", ",").replace(" ,", ",")
+           this will remove whitespaces"""
         return snacks
 
     @snacks.setter
